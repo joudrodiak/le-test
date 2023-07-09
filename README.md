@@ -11,29 +11,29 @@ This application provides real-time cryptocurrency prices and sends notification
 
 1. Clone the repository:
 
-\`\`\`bash
+```
 git clone https://github.com/yourusername/cryptopricenotifier.git
-\`\`\`
+```
 
 2. Install the dependencies:
 
-\`\`\`bash
+```
 cd cryptopricenotifier
 npm install
-\`\`\`
+```
 
 ## Configuration
 
 Create a \`.env\` file in the root directory of the project and add the following environment variables:
 
-\`\`\`bash
+```
 NODE_ENV=development
 PORT=3000
 COINMARKETCAP_API_KEY=your_coinmarketcap_api_key
 EXCHANGE_API_KEY=your_exchange_api_key
 POSTMARK_API_KEY=your_postmark_api_key
 POSTMARK_SENDER_EMAIL=your_postmark_sender_email
-\`\`\`
+```
 
 Replace \`your_coinmarketcap_api_key\`, \`your_exchange_api_key\`, \`your_postmark_api_key\`, and \`your_postmark_sender_email\` with your actual API keys and email.
 
@@ -45,23 +45,23 @@ First option:
 
 Start the server:
 
-\`\`\`bash
+```
 npm start
-\`\`\`
+```
 
 The server will start running at \`http://localhost:3000\`.
 
 Second option:
 
 build the dockerfile with:
-\`\`\`bash
+```
 docker build -t {chosenName} .  
-\`\`\`
+```
 
 then run it with exposting the port 3000 with:
-\`\`\`bash
+```
 docker run -p 3000:3000 {chosenName}  
-\`\`\`
+```
 
 ## Endpoints
 
@@ -74,13 +74,13 @@ To run the tests:
 
 Change NODE_ENV to test env by:
 
-\`\`\`bash
+```
 export NODE_ENV=test
-\`\`\`
+```
 
-\`\`\`bash
+```
 npm test
-\`\`\`
+```
 
 ## Contributing
 
