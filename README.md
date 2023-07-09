@@ -37,6 +37,8 @@ POSTMARK_SENDER_EMAIL=your_postmark_sender_email
 
 Replace \`your_coinmarketcap_api_key\`, \`your_exchange_api_key\`, \`your_postmark_api_key\`, and \`your_postmark_sender_email\` with your actual API keys and email.
 
+P.S. I do know that usually .env files contain discrete information that should not be uploaded but consider it me cutting slack for you :)
+
 ## Usage
 
 To run the server you have 2 options:
