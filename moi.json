@@ -1,0 +1,16 @@
+{
+    "person": {
+      "name": "Joud",
+      "age": 22,
+      "weight": 86,
+      "height": 188,
+      "interests": [
+        "eating lots of meat",
+        "being healthy",
+        "going to the gym",
+        "developing",
+        "solving problems"
+      ]
+    }
+  }
+  
